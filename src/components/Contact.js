@@ -1,5 +1,5 @@
 import React from "react"
-
+import facebook_logo from "./icons/facebook.png"
 const Contact = () => {
   return (
     <div>
@@ -7,11 +7,11 @@ const Contact = () => {
 			<h1>Talk to Me..</h1>
 			<div className="social-media">
 				<div className="social-media-icon-container">
-					<a href="/"><img src="./icons/facebook.png" alt="" /></a>
-					<a href="/"><img src="./icons/github.png" alt="" /></a>
-					<a href="/"><img src="./icons/linkdlin.png" alt="" /></a>
-					<a href="/"><img src="./icons/twitter.png" alt="" /></a>
-					<a href="/"><img src="./icons/instagram.png" alt="" /></a>
+					<a href="/"><img src={facebook_logo} alt="" /></a>
+					<a href="/"><img src={require('./icons/instagram.png')} alt="" /></a>
+					<a href="/"><img src={require('./icons/linkdlin.png')} alt="" /></a>
+					<a href="/"><img src={require('./icons/github.png')} alt="" /></a>
+					<a href="/"><img src={require('./icons/twitter.png')} alt="" /></a>
 				</div>
 			</div>
 			<p>
