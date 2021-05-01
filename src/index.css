@@ -326,6 +326,11 @@ body {
 	-webkit-animation: hover 1200ms linear 2 alternate;
 	animation: hover 1200ms linear 2 alternate;
 }
+.m:hover{
+  	cursor: pointer;
+	-webkit-animation: hover 1200ms linear 2 alternate;
+	animation: hover 1200ms linear 2 alternate;
+}
 .social-media {
 	display: flex;
 	flex-direction: column;
@@ -340,6 +345,11 @@ body {
 .social-media img {
 	width: 5rem;
 	margin: 2rem;
+}
+.social-media img:hover{
+  	cursor: pointer;
+    	-webkit-animation: hover 1200ms linear 2 alternate;
+	animation: hover 1200ms linear 2 alternate;
 }
 /* footer */
 footer {

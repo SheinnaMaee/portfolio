@@ -7,10 +7,12 @@ const Talk = () => {
 				Project is coming up? <br />
 				<span>Let's talk about it</span>
 			</h1>
+      <a href="#contact">
 			<div className="arrow">
 				<span></span>
 				<span></span>
 			</div>
+      </a>
 		</section>
     </div>
   )

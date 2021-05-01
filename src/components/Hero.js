@@ -6,11 +6,11 @@ const Hero = () => {
     <section className="hero" id="home">
 			<div className="hero-main">
 				<h1 className="tracking-in-expand">
-					<span className="small-text tracking-in-expand"
+					<span className="small-text"
 						>Hi, my name is
 					</span>
 					<br />
-					<span className="colored tracking-in-expand">Md Hussain</span
+					<span className="colored"><span className="m">M</span>d Hussain</span
 					><br />
 					I Build stuff for the web
 				</h1>
