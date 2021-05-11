@@ -49,6 +49,7 @@ body {
 	color: inherit;
 	margin-right: 5rem;
 }
+
 /* burger menu */
 .burger {
 	display: none;
@@ -372,6 +373,24 @@ footer {
 	color: #e7305c;
 	font-size: 2.5rem;
 	font-weight: 700;
+}
+/* slider */
+
+.slider{
+  background-color: #f2f2f2;
+  padding: 4rem;
+  text-align: center
+}
+.slider h1{
+  font-size: 6rem;
+  padding: 2rem;
+  font-weight: 700;
+  color: #e7305c;
+  letter-spacing: 2px
+}
+.slider img{
+  height: 20rem;
+  cursor: grab
 }
 /* Key Frames */
 

@@ -1,5 +1,6 @@
 import React, { useState } from "react"
 
+
 const Nav = () => {
   const [isActive, setActive] = useState(false);
   const [scroll, setScroll] = useState(false)
@@ -30,7 +31,7 @@ const Nav = () => {
               <a href="#contact">Contact</a>
             </h4>
             <h4 className="bounce-in-top">
-              <a href="./assets/mycv.pdf" target="_blank"> Resume</a>
+              <a href={require('./docs/mycv.pdf')} target="_blank" rel="noopener noreferrer"> Resume</a>
             </h4>
           </div>
           <div className={`burger ${isActive ? "toggle" : ""}`} onClick={ToggleClass}>

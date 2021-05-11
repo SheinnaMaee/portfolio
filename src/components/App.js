@@ -6,6 +6,7 @@ import Projects from "./Projects"
 import Talk from "./Talk"
 import Contact from "./Contact"
 import Footer from "./Footer"
+import Responsive from "./Slider"
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <Nav/>
       <Hero/>
       <About/>
+      <Responsive/>
       <Projects/>
       <Talk/>
       <Contact/>

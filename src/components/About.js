@@ -1,4 +1,5 @@
 import React,{useState} from "react"
+import Reveal from 'react-reveal/Reveal';
 
 const About = () => {
   const [showText,setShowText] = useState(false)
@@ -9,6 +10,7 @@ const About = () => {
   })
   return (
     <div>
+    <Reveal effect="fadeInUp">
       <section className="about" id="about">
 			<p id="about_text" className={ showText ? "text-focus-in" : ""}>
 				I'm a full stack developer based in Delhi,India with
@@ -17,6 +19,7 @@ const About = () => {
 				products and am constantly looking to learn new things everyday.
 			</p>
 		</section>
+    </Reveal>
     </div>
   )
 }
