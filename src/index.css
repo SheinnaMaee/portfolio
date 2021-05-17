@@ -173,7 +173,11 @@ body {
 	margin-bottom: 2rem;
 	background-color: #fff;
 }
-
+.projects .colored{
+  font-size: 8rem;
+  text-align: center;
+  padding: 5rem
+}
 .details {
 	flex: 1 1 40rem;
 	padding: 2rem;
@@ -353,30 +357,37 @@ body {
 	animation: hover 1200ms linear 2 alternate;
 }
 /* card */
+.skills{
+  background: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap
+}
 .card-container, .front, .back {
-	width: 20rem;
-	height: 20rem;
+	width: 25rem;
+	height: 30rem;
 }
 .card-container {
 	margin: 5rem;
 }
 .front, .back {
-	box-sizing: border-box;
 	padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 	border-radius: 4px;
 	box-shadow: 0 1rem 2rem rgba(0, 0, 0, .25);
-
-	font-family: BlinkMacSystemFont, "Segoe UI", sans-serif;
 	font-size: 2rem;
 	color: #fff;
 	text-transform: uppercase;
-	text-align: center;
 }
 /* front side bg is green gradient */ .front {
-	background-image: linear-gradient(to right bottom, #2ecc71, #229955);
+	/* background-image: linear-gradient(to right bottom, #2ecc71, #229955); */
+  background: #e7305c
 }
 /* back side bg is orange gradient */ .back {
-	background-image: linear-gradient(to right bottom, #f1c40f, #e67e22);
+	background:#ffc048;
 }
 
 .card-container {
@@ -433,10 +444,9 @@ footer {
   text-align: center
 }
 .slider h1{
-  font-size: 6rem;
+  font-size: 8rem;
   padding: 2rem;
   font-weight: 700;
-  color: #e7305c;
   letter-spacing: 2px
 }
 .slider img{

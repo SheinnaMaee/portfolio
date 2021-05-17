@@ -39,7 +39,7 @@ export default class Responsive extends Component {
     };
     return (
       <div className="slider">
-      <h1>SKILLS</h1>
+      <h1 className="colored">Skills</h1>
         <Slider {...settings}>
           <div>
             <img src={require('./icons/html.png')}  alt="html" />
