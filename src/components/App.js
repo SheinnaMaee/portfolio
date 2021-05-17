@@ -6,15 +6,14 @@ import Projects from "./Projects"
 import Talk from "./Talk"
 import Contact from "./Contact"
 import Footer from "./Footer"
-import Responsive from "./Slider"
-
+import SkillsSection from "./SkillsSection"
 const App = () => {
   return (
     <div>
       <Nav/>
       <Hero/>
       <About/>
-      <Responsive/>
+      <SkillsSection/>
       <Projects/>
       <Talk/>
       <Contact/>
