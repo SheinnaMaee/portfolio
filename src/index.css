@@ -15,6 +15,9 @@ body {
 	background-position: center;
 	background-size: cover;
 }
+.container{
+	padding: 0rem 17.5rem;
+}
 ::selection {
 	color: #e7305c;
 	background: #ffc048;
@@ -29,8 +32,8 @@ body {
 	display: flex;
 	min-height: 10vh;
 	align-items: center;
-	justify-content: space-around;
-	padding: 2rem;
+	justify-content: space-between;
+	padding: 2rem 17.5rem;
 	font-size: 2rem;
 	transition: 0.5s;
 }
@@ -166,7 +169,7 @@ body {
 .project {
 	display: flex;
 	font-size: 2rem;
-	max-width: 150rem;
+	max-width: 140rem;
 	margin: auto;
 	flex-wrap: wrap;
 	margin-top: 2rem;
@@ -439,7 +442,6 @@ footer {
 /* slider */
 
 .slider{
-  background-color: #f2f2f2;
   padding: 4rem;
   text-align: center
 }
@@ -656,16 +658,14 @@ footer {
 /* media  */
 @media (max-width: 1366px) {
 	html {
-		font-size: 50%;
+		font-size: 40%;
 	}
+
 	.projects {
 		padding: 1rem 2rem;
 	}
 }
 @media (max-width: 1000px) {
-	html {
-		font-size: 40%;
-	}
 	.about {
 		padding: 10rem;
 	}
@@ -678,6 +678,9 @@ footer {
 		display: block;
 		cursor: pointer;
 	}
+	.main-head nav{
+		padding: 2rem 6rem;
+	}
 	.collapse {
 		position: absolute;
 		right: 0;
@@ -689,7 +692,7 @@ footer {
 		top: 10vh;
 		display: flex;
 		flex-direction: column;
-		justify-content: center;
+		justify-content: space-around;
 		align-items: center;
 		transform: translateX(100%);
 		transition: transform 0.2s ease-in;
