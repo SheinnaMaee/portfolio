@@ -658,7 +658,7 @@ footer {
 /* media  */
 @media (max-width: 1366px) {
 	html {
-		font-size: 40%;
+		font-size: 50%;
 	}
 
 	.projects {
