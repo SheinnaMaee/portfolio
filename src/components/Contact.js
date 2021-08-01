@@ -15,8 +15,8 @@ const Contact = () => {
 				</div>
 			</div>
 			<p>
-				Wondering if we can help, but not ready for a chat? <br />
-				Just drop us a line in the form bellow we'll get back to you.
+				Wondering if I can help, but not ready for a chat? <br />
+				Just drop  a line in the form below i'll get back to you.
 			</p>
 			<form
 				method="POST"
