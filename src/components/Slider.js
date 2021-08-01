@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
+import Fade from 'react-reveal/Fade';
 
 export default class Responsive extends Component {
   render() {
@@ -39,34 +40,37 @@ export default class Responsive extends Component {
     };
     return (
       <div className="slider">
+  
         <Slider {...settings}>
+        
           <div>
-            <img src={require('./icons/html.png')}  alt="html" />
+          <Fade left cascade> <img src={require('./icons/html.png')}  alt="html" /> </Fade>
           </div>
           <div>
-             <img src={require('./icons/css.png')}  alt="css" />
+          <Fade left cascade> <img src={require('./icons/css.png')}  alt="css" /> </Fade>
           </div>
           <div>
-             <img src={require('./icons/js.png')}  alt="js" />
+          <Fade left cascade> <img src={require('./icons/js.png')}  alt="js" /> </Fade>
           </div>
           <div>
-             <img src={require('./icons/react.png')}  alt="react" />
+          <Fade left cascade>  <img src={require('./icons/react.png')}  alt="react" />  </Fade>
           </div>
           <div>
-             <img src={require('./icons/nodejs.png')}  alt="node" />
+          <Fade left cascade> <img src={require('./icons/nodejs.png')}  alt="node" /> </Fade>
           </div>
           <div>
-             <img src={require('./icons/python.png')}  alt="python" />
+          <Fade left cascade>  <img src={require('./icons/python.png')}  alt="python" /> </Fade>
+          </div>
+          <div> 
+          <Fade left cascade> <img src={require('./icons/django.png')}  alt="django" /> </Fade>
           </div>
           <div>
-             <img src={require('./icons/django.png')}  alt="django" />
+          <Fade left cascade> <img src={require('./icons/postgres.png')}  alt="postgres" /> </Fade>
           </div>
           <div>
-             <img src={require('./icons/postgres.png')}  alt="postgres" />
+          <Fade left cascade> <img src={require('./icons/mongodb.png')}  alt="mongo db" />  </Fade>
           </div>
-          <div>
-             <img src={require('./icons/mongodb.png')}  alt="mongo db" />
-          </div>
+          
         </Slider>
       </div>
     );
