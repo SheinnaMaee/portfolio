@@ -1,10 +1,14 @@
 import React from "react";
 import facebook_logo from "./icons/facebook.png";
+import Fade from 'react-reveal/Fade';
+
 const Contact = () => {
   return (
     <div>
       <section className="contact" id="contact">
+	<Fade left cascade>
         <h1>Talk to Me..</h1>
+	</Fade>
         <div className="social-media">
           <div className="social-media-icon-container">
             <a
@@ -44,10 +48,12 @@ const Contact = () => {
             </a>
           </div>
         </div>
+		
         <p>
           Wondering if I can help, but not ready for a chat? <br />
           Just drop a line in the form below i'll get back to you.
         </p>
+		
         <form
           method="POST"
           action="https://formsubmit.co/hussainakhtar1111@gmail.com"
@@ -75,6 +81,7 @@ const Contact = () => {
           ></textarea>
           <button type="submit">submit</button>
         </form>
+		
       </section>
     </div>
   );
