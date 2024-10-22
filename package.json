@@ -1,6 +1,7 @@
 {
   "name": "SheinnaMaee",
   "version": "0.1.0",
+  "homepage": "https://SheinnaMaee.github.io/portfolio",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
@@ -14,6 +15,7 @@
     "react-slick": "^0.28.1"
   },
   "scripts": {
+    "deploy": "npm run build && some-deploy-command",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
