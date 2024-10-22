@@ -9,7 +9,7 @@ const Projects = () => {
       <Project/>
       <Project/>
 			<div className="more">
-				<button>View All</button>
+			
 			</div>
 		</section>
     </div>

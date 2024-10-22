@@ -26,23 +26,23 @@ const Nav = () => {
         >
         
             <h2>
-            <a href="#home">vgoat.</a>
+            <a href="#home">SHEINNA HOME</a>
             </h2>
           
           <div className={`right collapse ${isActive ? "burger-active" : ""}`}>
             <h4>
               <Fade left cascade>
-                <a href="#about">About</a>
+                <a href="#about">ABOUT</a>
               </Fade>
             </h4>
             <h4>
               <Fade left cascade>
-                <a href="#projects">Project</a>
+                <a href="#projects">PROJECT</a>
               </Fade>
             </h4>
             <h4>
               <Fade left cascade>
-                <a href="#contact">Contact</a>
+                <a href="#contact">CONTACT</a>
               </Fade>
             </h4>
             <h4>
@@ -52,7 +52,6 @@ const Nav = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Resume
                 </a>
               </Fade>
             </h4>

@@ -13,9 +13,9 @@ const Hero = () => {
 						>Hi, my name is
 					</span>
 					<br />
-					<span className="colored">Md Hussain</span
-					><br />
-					I Build stuff for the web
+					<span className="colored">Sheinna Mae Sartiga</span>
+					<br />
+					Information Technology Student
 				</Fade>
 				</h1>
 				

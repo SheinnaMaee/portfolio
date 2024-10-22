@@ -5,10 +5,10 @@ const Footer = () => {
     <div>
     <footer>
 			<p>
-				Living, learning, & leveling up <br />
+				Living, Learning, & Leveling up <br />
 				one day at a time.
 			</p>
-			<p id="createdby">Created by - <span>Md Hussain</span></p>
+			<p id="createdby">Created by - <span>Sheinna Mae</span></p>
 		</footer>
     </div>
   )
